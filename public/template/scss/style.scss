@@ -162,6 +162,14 @@ a[data-toggle="collapse"] {
     right: 0;
     transform: translateY(-50%);
 }
+.dropup-toggle::after {
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
 
 #sidebarCollapse{
 	span{
