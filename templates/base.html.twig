@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>{% block title %}Welcome!{% endblock %}</title>
+    <title>{% block title %}Gestion de stock!{% endblock %}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="mballoSoft"/>
+    <meta name="author" content="diti5"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href={{ ('template/css/style.css') }}>
@@ -23,94 +23,40 @@
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Ventes</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="#">Effectuer une vente</a>
+                            <a href="#">Sorties</a>
                         </li>
                         <li>
-                            <a href="#">Modifier une vente</a>
-                        </li>
-                        <li>
-                            <a href="#">Annuler une vente</a>
+                            <a href="#">Factures</a>
                         </li>
                     </ul>
                 </li>
                 <li class="active">
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Facturation</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Approvisionement</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu1">
                         <li>
-                            <a href="#">Afficher factures</a>
-                        </li>
-                        <li>
-                            <a href="#">Imprimer facture</a>
+                            <a href="#">Stock</a>
                         </li>
                     </ul>
                 </li>
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Categories</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Produits&Catégorie</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu2">
                         <li>
-                            <a href="#">Ajouter categorie</a>
+                            <a href="#">Catégories</a>
                         </li>
                         <li>
-                            <a href="#">Liste categories</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="active">
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Produits</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Ajouter produit</a>
-                        </li>
-                        <li>
-                            <a href="#">Liste produit</a>
+                            <a href="#">Produits</a>
                         </li>
                     </ul>
                 </li>
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Approvisionement</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Sécurité</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu2">
                         <li>
-                            <a href="#">Ajouter stock</a>
+                            <a href="#">Users</a>
                         </li>
                         <li>
-                            <a href="#">Faire un alerte </a>
-                        </li>
-                        <li>
-                            <a href="#">Liste stocks</a>
-                        </li>
-                        <li>
-                            <a href="#">Alimenter un produit</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Gestion Roles</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Ajouter role</a>
-                        </li>
-                        <li>
-                            <a href="#">Liste roles </a>
-                        </li>
-                        <li>
-                            <a href="#">Desaffecter role</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="active">
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Gestion Users</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Ajouter user</a>
-                        </li>
-                        <li>
-                            <a href="#">Liste users </a>
-                        </li>
-                        <li>
-                            <a href="#">Liste stocks</a>
-                        </li>
-                        <li>
-                            <a href="#">Alimenter un produit</a>
+                            <a href="#">Roles</a>
                         </li>
                     </ul>
                 </li>
@@ -118,7 +64,7 @@
 
             <div class="footer">
                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This application is made <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">DITI 5</a>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous les droits réservés à <i class="icon-heart" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank">DITI 5</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
 
