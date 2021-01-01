@@ -1,1 +1,0 @@
-Ce dossier contiendra nos ressources (template ....)
